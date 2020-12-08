@@ -35,7 +35,7 @@ export default {
       "@nuxtjs/dotenv",
       {
         path: ".env",
-        filename: process.env.NODE_ENV === "production" ? ".env.production" : ".env.local"
+        filename: process.env.NODE_ENV === "production" ? ".env" : ".env.development"
       }
     ],
     '@nuxtjs/style-resources'
